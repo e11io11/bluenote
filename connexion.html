@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BlueNote</title>
+		<link rel="stylesheet" type="text/css" href="connexion_inscription.css" media="all" />
+		<meta charset="utf-8">
+		<script>
+		  function valide(){
+		    texte=document.formulaire.forum.value;
+		    var d1 = document.getElementById('commentaire');
+		    d1.insertAdjacentHTML('beforeend', '<p id="affichage_commentaire">'+texte+'</p>');
+		  }
+		</script>
+	</head>
+	<body>
+		<header id="header">
+			<div id="logo_menu_connexion">
+				<a id="logo" href="accueil.html"><img src="logo.png" alt="logo"></a>
+				<nav id="menu">
+					<h3><a href="accueil.html">Accueil</a></h3>
+					<div class="dropdown">
+						<h3>La Carte</h3>
+						<div class="dropdown-content">
+    					<a href="restaurant.html">Restaurant</a>
+    					<a href="bar.html">Bar</a>
+						</div>
+					</div>
+					<h3><a href="evenement.html">Evenements</a></h3>
+					<h3><a href="artiste.html">Artistes</a></h3>
+					<h3><a href="apropos.html">A Propos</a></h3>
+				</nav>
+				<nav id="connexion">
+					<h4><a href="connexion.html">Connexion</a></h4>
+					<h4><a href="inscription.html">Inscrition</a></h4>
+				</nav>
+			</div>
+
+			<div id="ligne">
+			</div>
+			<ul id="informations">
+				<li id="horaires">Ouvert tout les jours de 11h à 3h du matin !</li>
+				<li id="adresse">Adresse: <a class="hover_link" href="https://www.google.com/maps/place/Quai+des+Chartrons,+Bordeaux/@44.8529356,-0.5693424,17z/data=!3m1!4b1!4m5!3m4!1s0xd55287e0221d69d:0x6d29d916fd0df5f8!8m2!3d44.8529318!4d-0.5671537" target="_blank">Hangar 15, Quai des Chartrons, Bordeaux</a></li>
+				<li id="numero">Telephone: 0666666666</li>
+			</ul>
+		</header>
+		<main>
+			<aside id="contenugauche">
+			</aside>
+			<article id="contenumilieu">
+				<section id="Connexion">
+		         <h2>Connexion:</h2>
+		            <div id="Connexion_formulaire">
+		                <div>
+		                    <h4> Email: </h4>
+		                    <input name="email" type="text"/>
+		                </div>
+										</br>
+		                <div>
+		                    <h4>Mot de passe:</h4>
+		                    <input name="mot_de_passe" type="text"/>
+		                </div>
+									  </br>
+		                <div>
+		                    <input class="boutton2" type="button" name="connexion" value="Connexion">
+		                </div>
+		            </div>
+		    </section>
+			</article>
+			<aside id="contenudroit">
+			</aside>
+		</main>
+		<footer id="contenuenbas">
+			<p>
+				bluenote.com is a property of Kevin, Asanka, Nadir and <a class="hover_link" href="https://github.com/e11io11">Elliott</a>, LLC. ©2019 All Rights Reserved.
+			</p>
+		</footer>
+	</body>
+</html>

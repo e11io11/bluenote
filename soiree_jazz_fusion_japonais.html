@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BlueNote</title>
+		<link rel="stylesheet" type="text/css" href="soiree_jazz_fusion_japonais.css" media="all" />
+		<meta charset="utf-8">
+		<script>
+		  function valide(){
+		    texte=document.formulaire.forum.value;
+		    var d1 = document.getElementById('commentaire');
+		    d1.insertAdjacentHTML('beforeend', '<p id="affichage_commentaire">'+texte+'</p>');
+		  }
+		</script>
+	</head>
+	<body>
+		<header id="header">
+			<div id="logo_menu_connexion">
+				<a id="logo" href="accueil.html"><img src="logo.png" alt="logo"></a>
+				<nav id="menu">
+					<h3><a href="accueil.html">Accueil</a></h3>
+					<div class="dropdown">
+						<h3>La Carte</h3>
+						<div class="dropdown-content">
+    					<a href="restaurant.html">Restaurant</a>
+    					<a href="bar.html">Bar</a>
+						</div>
+					</div>
+					<h3><a href="evenement.html">Evenements</a></h3>
+					<h3><a href="artiste.html">Artistes</a></h3>
+					<h3><a href="apropos.html">A Propos</a></h3>
+				</nav>
+				<nav id="connexion">
+					<h4><a href="connexion.html">Connexion</a></h4>
+					<h4><a href="inscription.html">Inscrition</a></h4>
+				</nav>
+			</div>
+
+			<div id="ligne">
+			</div>
+			<ul id="informations">
+				<li id="horaires">Ouvert tout les jours de 11h à 3h du matin !</li>
+				<li id="adresse">Adresse: <a class="hover_link" href="https://www.google.com/maps/place/Quai+des+Chartrons,+Bordeaux/@44.8529356,-0.5693424,17z/data=!3m1!4b1!4m5!3m4!1s0xd55287e0221d69d:0x6d29d916fd0df5f8!8m2!3d44.8529318!4d-0.5671537" target="_blank">Hangar 15, Quai des Chartrons, Bordeaux</a></li>
+				<li id="numero">Telephone: 0666666666</li>
+			</ul>
+		</header>
+		<main>
+			<aside id="contenugauche">
+			</aside>
+			<article id="contenumilieu">
+				<section>
+					<div id="intro">
+						<img id="banniere" src="banniere_evn.jpg" alt="banniere">
+						<div id="banniere_txt">
+							<h2 id="titre_evn">Evénement: Soirée jazz fusion japonais avec Himiko Kikuchi</h2>
+							<p>Le vendredi 18 et samedi 19 janvier à partire de 20h</p>
+						</div>
+					</div>
+					<div class="sous_partie">
+						<h3 class="subtitle">L'artiste:</h3>
+						<a href="himiko_kikuchi.html"><img id="album" src="himiko_kikuchi_album.jpg" alt="album_flashing_lights"></a>
+						<p class="description">
+							Lorem ipsum dolor sit amet, sea vidisse aliquam ex, dicit salutandi sententiae cum ei.
+							Iudico percipit ei pri, alii mentitum adversarium sea cu. Ut eius senserit eos, eu ubique bonorum vix.
+							Pro te justo deseruisse, nec ex harum sonet habemus, enim ubique id usu.
+							Nec cu simul oblique referrentur, consul putant explicari mel at.
+							Cum commune patrioque consequat ut, periculis dissentiunt eum te.
+							Pro ex vero graeco nominati.
+							Lorem ipsum dolor sit amet, sea vidisse aliquam ex, dicit salutandi sententiae cum ei.
+							Iudico percipit ei pri, alii mentitum adversarium sea cu. Ut eius senserit eos, eu ubique bonorum vix.
+							Pro te justo deseruisse, nec ex harum sonet habemus, enim ubique id usu.
+							Nec cu simul oblique referrentur, consul putant explicari mel at.
+							Cum commune patrioque consequat ut, periculis dissentiunt eum te.
+							Pro ex vero graeco nominati.
+							Lorem ipsum dolor sit amet, sea vidisse aliquam ex, dicit salutandi sententiae cum ei.
+							Iudico percipit ei pri, alii mentitum adversarium sea cu. Ut eius senserit eos, eu ubique bonorum vix.
+							Pro te justo deseruisse, nec ex harum sonet habemus, enim ubique id usu.
+						</p>
+						<p class="lien"><a href="himiko_kikuchi.html">En savoir plus sur Himiko Kikuchi</a></p>
+					</div>
+					<div class="sous_partie">
+						<h3 class="subtitle">Les Plats:</h3>
+						<div class="plat">
+							<img id="ramen" src="ramen.png" alt="ramen">
+							<div>
+								<h5 class="plat_titre">Ramen:</h5>
+								<p id="ramen_desc">
+									Lorem ipsum dolor sit amet, sea vidisse aliquam ex, dicit salutandi sententiae cum ei.
+									Iudico percipit ei pri, alii mentitum adversarium sea cu. Ut eius senserit eos, eu ubique bonorum vix.
+									Pro te justo deseruisse, nec ex harum sonet habemus, enim ubique id usu.
+								</p>
+							</div>
+						</div>
+						<div class="plat">
+							<img id="sushi" src="sushi.png" alt="sushi">
+							<div>
+								<h5 class="plat_titre">Sushi:</h5>
+								<p id="sushi_desc">
+									Lorem ipsum dolor sit amet, sea vidisse aliquam ex, dicit salutandi sententiae cum ei.
+									Iudico percipit ei pri, alii mentitum adversarium sea cu. Ut eius senserit eos, eu ubique bonorum vix.
+									Pro te justo deseruisse, nec ex harum sonet habemus, enim ubique id usu.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="sous_partie">
+						<p class="lien">
+							<a href="evenement.html">Voir les autres évenements</a>
+						</p>
+					</div>
+				</section>
+				<section id="reservation">
+					<h2>Réserver une place:</h2>
+					<div id="reservation_formulaire">
+						<div>
+							<h4>Nom:</h4>
+							<input name="nom" type="text"/>
+						</div>
+						<div>
+							<h4>Date:</h4>
+							<input name="date" type="text"/>
+						</div>
+						<div>
+							<h4>Heure:</h4>
+							<input name="heure" type="text"/>
+						</div>
+						<div>
+							<h4>Nombre de personnes:</h4>
+							<input name="nombre_personne" type="text"/>
+						</div>
+						<div>
+							<input class="boutton" type="button" name="reserver" value="Réserver">
+						</div>
+					</div>
+				</section>
+			</article>
+			<aside id="contenudroit">
+			</aside>
+		</main>
+		<footer id="contenuenbas">
+			<p>
+				bluenote.com is a property of Kevin, Asanka, Nadir and <a class="hover_link" href="https://github.com/e11io11">Elliott</a>, LLC. ©2019 All Rights Reserved.
+			</p>
+		</footer>
+	</body>
+</html>

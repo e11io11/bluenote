@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BlueNote</title>
+		<link rel="stylesheet" type="text/css" href="apropos.css" media="all" />
+		<meta charset="utf-8">
+		<script>
+		  function valide(){
+		    texte=document.formulaire.forum.value;
+		    var d1 = document.getElementById('commentaire');
+		    d1.insertAdjacentHTML('beforeend', '<p id="affichage_commentaire">'+texte+'</p>');
+		  }
+		</script>
+	</head>
+	<body>
+		<header id="header">
+			<div id="logo_menu_connexion">
+				<a id="logo" href="accueil.html"><img src="logo.png" alt="logo"></a>
+				<nav id="menu">
+					<h3><a href="accueil.html">Accueil</a></h3>
+					<div class="dropdown">
+						<h3>La Carte</h3>
+						<div class="dropdown-content">
+    					<a href="restaurant.html">Restaurant</a>
+    					<a href="bar.html">Bar</a>
+						</div>
+					</div>
+					<h3><a href="evenement.html">Evenements</a></h3>
+					<h3><a href="artiste.html">Artistes</a></h3>
+					<h3><a href="apropos.html">A Propos</a></h3>
+				</nav>
+				<nav id="connexion">
+					<h4><a href="connexion.html">Connexion</a></h4>
+					<h4><a href="inscription.html">Inscrition</a></h4>
+				</nav>
+			</div>
+
+			<div id="ligne">
+			</div>
+			<ul id="informations">
+				<li id="horaires">Ouvert tout les jours de 11h à 3h du matin !</li>
+				<li id="adresse">Adresse: <a class="hover_link" href="https://www.google.com/maps/place/Quai+des+Chartrons,+Bordeaux/@44.8529356,-0.5693424,17z/data=!3m1!4b1!4m5!3m4!1s0xd55287e0221d69d:0x6d29d916fd0df5f8!8m2!3d44.8529318!4d-0.5671537" target="_blank">Hangar 15, Quai des Chartrons, Bordeaux</a></li>
+				<li id="numero">Telephone: 0666666666</li>
+			</ul>
+		</header>
+		<main>
+			<aside id="contenugauche">
+			</aside>
+			<article id="contenumilieu">
+        <img src="staff.jpg" alt="staff" id="staff">
+                <section id="presentationdustaff">
+                    <h3 id='titrestaff'>BlueNote?</h3>
+                    <p id='txtstafft'>Créée en 1992 par Christopher SHAFROTH, Bluenote ouvre son premier restaurant à Bordeaux, en France.
+
+Avec un concept fort et innovant : Restaurant-Bar basé sur une ambiance jazzy.
+
+Dès l’origine, Bluenote se distingue par une restauration rapide mais de qualité : une cuisine faite sur place, par l’équipe, à partir de produits frais et de saison.
+
+L'ambiance jazz , les évènements font la réputation de Bluenote. De plus en plus d'artiste nous rejoigne et font des représentation En 2017, le groupe Bluenote a fêté ses 25 ans.
+Nous remercions en praticulier les artistes qui font littéralement vivre le restaurant-bar à travers notre passion , jazzy     4ever.</p>
+
+                </section>
+                <section id="lieu">
+
+                    <p id='txtlieu'>Notre cher restaurant ce trouve à l'<a href="https://www.google.com/search?tbm=lcl&ei=O8o5XN6YGdGua83pq-AL&q=Hangar+15%2C+Quai+des+Chartrons%2C+Bordeaux&oq=Hangar+15%2C+Quai+des+Chartrons%2C+Bordeaux&gs_l=psy-ab.12...0.0.0.10367.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.psKYUs_vcVU#rlfi=hd:;si:;mv:!1m2!1d44.85908377105757!2d-0.5467759441055478!2m2!1d44.846442760320365!2d-0.5789624522842587!4m2!1d44.852763612520754!2d-0.5628691981949032!5i16" id="lienlieu">Hangar 15, Quai des Chartrons, Bordeaux</a></p>
+                    <img src="lieu.png" alt="lieu" id="lieu">
+                </section>
+<section id='horaire'>
+                    <p id='txthoraire'>Horaires : Tous les jours de 11h à 3h du matin ! </p>
+                </section>
+<section id='u'><strong>Vous êtes un artistes professionnel ou amateur de jazz ? </strong>
+                Vous êtes le bienvenus ! Contactez nous pour pouvoir assuré  un évènements a l'adresse mail suivant ,
+                des indications suplémentaire : shafroth.christopher@gmail.com .
+                </section>
+                <section id="reservation">
+        					<h2>Réserver une place:</h2>
+        					<div id="reservation_formulaire">
+        						<div>
+        							<h4>Nom:</h4>
+        							<input name="nom" type="text"/>
+        						</div>
+        						<div>
+        							<h4>Date:</h4>
+        							<input name="date" type="text"/>
+        						</div>
+        						<div>
+        							<h4>Heure:</h4>
+        							<input name="heure" type="text"/>
+        						</div>
+        						<div>
+        							<h4>Nombre de personnes:</h4>
+        							<input name="nombre_personne" type="text"/>
+        						</div>
+        						<div>
+        							<input class="boutton" type="button" name="reserver" value="Réserver">
+        						</div>
+        					</div>
+        				</section>
+			</article>
+			<aside id="contenudroit">
+			</aside>
+		</main>
+		<footer id="contenuenbas">
+			<p>
+				bluenote.com is a property of Kevin, Asanka, Nadir and <a class="hover_link" href="https://github.com/e11io11">Elliott</a>, LLC. ©2019 All Rights Reserved.
+			</p>
+		</footer>
+	</body>
+</html>

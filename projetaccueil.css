@@ -1,0 +1,170 @@
+*{	padding:0;
+	margin:0;
+	}
+
+#logo_menu_connexion{
+	width:100%;
+	display: flex;
+}
+
+#connexion{
+	padding-left: 150px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+#connexion li{
+	font-size: 20px;
+}
+
+
+
+#menu{
+	padding-left:10%;
+}
+
+#logo{
+	padding-left: 20%;
+}
+
+#menu li {
+	display:table-cell;
+	padding-top:30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width:300px;
+	text-align: center;
+	font-size: 25px;
+	white-space: nowrap;
+}
+
+
+#contenumilieu{
+	height:auto;
+	margin-top: 98px;
+	background-color: white;
+}
+
+#description_restaurant{
+	height:800px;
+	background-color:grey;
+}
+
+#evenement{
+	padding-top:0px;
+	height:600px;
+	background-color:blue;
+}
+
+#contenugauche {
+	width:15%;
+	height:auto;
+	background-color: #e9fcff;
+	}
+
+#contenudroit {
+	width:15%;
+	height:auto;
+	background-color: #e9fcff;
+}
+
+#contenuenbas {
+	width:100%;
+	height:50px;
+	background-color:grey;
+	clear:both;
+	}
+
+
+#informations{
+	height:5%;
+	width:100%;
+	display:flex;
+	font-size: 15px;
+	padding-bottom: 3px;
+	padding-left: 10%;
+}
+
+#header{
+	width:100%;
+	position:fixed;
+	font-family: chunky funks; src("Chunky Funks.otf");
+	text-decoration: none;
+	color:white;
+	background-color: #00004d;
+}
+
+
+main{
+	display:flex;
+}
+
+a {
+	color: inherit;
+}
+
+
+#ligne{
+	background-color: white;
+	width: 100%;
+	height: 3px;
+}
+
+
+#informations li{
+	padding-right: 4%;
+}
+
+#forum{
+	margin: 20px;
+	border: solid black 1px;
+	padding: 60px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+#forum h2{
+	margin-bottom: 20px;
+}
+
+#affichage_commentaire{
+	margin-top: 15px;
+	margin-left: 20px;
+	background-color: #adf4ff;
+	height:100px;
+	width: 80%;
+	padding: 15px;
+}
+
+
+#reservation_formulaire{
+	display:flex;
+}
+
+#reservation{
+	margin: 20px;
+	padding: 60px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border: solid black 1px;
+}
+
+#zone_commentaire{
+	margin-top: 15px;
+}
+
+#reservation_formulaire div{
+	margin-right: 3%;
+}
+
+#reservation h2{
+	margin-bottom: 20px;
+}
+
+
+#boutton_commentaire{
+	height: 40px;
+	width: 140px;
+	margin-left: 40%;
+	margin-top: 5px;
+}
