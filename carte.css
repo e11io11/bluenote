@@ -205,19 +205,15 @@ div {
   padding-bottom: 0;
 }
 .intitulé_plat{
-  margin: 1em 1px 1px 35em;
-  padding:0;
+  margin: auto;
   font-family: Pacifico ;
+	white-space: pre;
 }
 .placement{
   text-align: center;
   font-family: Maven Pro ;
   text-decoration:underline ;
 	color : #4169E1;
-}
-.menu{
-  margin: 1em 1em 1px 3em;
-  font-family: Pacifico ;
 }
 .sous_texte{
   text-align: center;

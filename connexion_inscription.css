@@ -199,31 +199,7 @@ a {
 	font-size: 35px;
 }
 
-div {
-  display: flex;
-  margin: auto;
-  padding-bottom: 0;
-}
-.intitulé_plat{
-  margin: 1em 1px 1px 35em;
-  padding:0;
-  font-family: Pacifico ;
-}
-.placement{
-  text-align: center;
-  font-family: Maven Pro ;
-  text-decoration:underline ;
-	color : #4169E1;
-}
-.menu{
-  margin: 1em 1em 1px 3em;
-  font-family: Pacifico ;
-}
-.sous_texte{
-  text-align: center;
-  font-family: Vibur ;
-	padding-bottom: : -15px;
-}
+
 #taille{
 	font-size: 30px;
 	color : white;
@@ -231,29 +207,35 @@ div {
 #block_bleu{
 	background-color:#000836 ;
 }
-#Inscription_formulaire{
-    display:flex;
-}
 
 #Inscription_formulaire{
-    margin: 20px;
-    padding: 24em;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size: 20px;
-		flex-direction: column;
+	margin-right: 150px;
 }
 
-#Inscription div{
-    margin-right: 3%;
+.item{
+	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	float: right;
+	display: flex;
+	font-size: 20px;
 }
 
 #Inscription h2{
+	  margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 17em;
+		text-align: center;
     color: #000024;
     font-size: 35px;
 }
+
+#center{
+	margin-top: 20px;
+	max-width: 300px;
+	white-space:nowrap;
+	margin: auto;
+}
+
 .boutton2{
     height: 40px;
     width: 140px;
@@ -281,12 +263,14 @@ div {
 }
 
 #Connexion div{
-    margin-right: 3%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #Connexion h2{
+		margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 18em;
+		text-align: center;
     color: #000024;
     font-size: 35px;
 }
