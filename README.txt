@@ -4,6 +4,5 @@ VARRAT Asanka
 HSU WANG Kevin
 FALGUEROLLE Elliott
 
-Enseignants:
+Enseignante:
 HELLEGOUARCH Pascale
-DUB Nicolas
